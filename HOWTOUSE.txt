@@ -1,0 +1,5 @@
+Notes by A. S. Reimer
+
+How to run code on a fitted file:
+
+1) 

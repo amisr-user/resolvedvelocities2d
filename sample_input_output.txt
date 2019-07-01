@@ -1,0 +1,263 @@
+rvarney@rvarney-ubuntu-pc:~/AMISR/VEF/NAM_final/FINAL_VERSION$ python main.py 
+/usr/lib/pymodules/python2.7/matplotlib/__init__.py:1173: UserWarning:  This call to matplotlib.use() has no effect
+because the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
+  warnings.warn(_use_error_msg)
+Would you like to run the fitter (0) or load results from an existing file (1)? 0
+Enter the number of processes you'd like to run: 1
+~~~~~~~~~~~~~~~~~~~~~~ Process #1: ~~~~~~~~~~~~~~~~~~~~~~
+Simulation (S) or real data (R)? R
+Please provide the path to the real data source file or enter one of the following options: 
+'pfisr121107_1'
+'pfisr121107_5'
+'pfisr121124'
+'pfisr151012'
+pfisr151012
+Would you like to weight derivatives in diff. directions differently in the G matrix mask? Y/N: N
+Please enter your desired G matrix masking style (e.g. [[0, 0], [1, 0], [0, 1]] or 001001): 001001
+Getting instrument information. Reading parameters from: data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 1
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 2
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 3
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 4
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 5
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 6
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 7
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 8
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 9
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 10
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 11
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 12
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 13
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 14
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 15
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 16
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 17
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 18
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 19
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 20
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 21
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 22
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 23
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 24
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 25
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 26
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 27
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 28
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 29
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 30
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 31
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 32
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 33
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 34
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 35
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 36
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 37
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 38
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 39
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 40
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 41
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 42
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 43
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 44
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 45
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 46
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 47
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 48
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 49
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 50
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 51
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 52
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 53
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 54
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 55
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 56
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 57
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 58
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 59
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 60
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 61
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 62
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 63
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 64
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 65
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 66
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 67
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 68
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 69
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 70
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 71
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 72
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 73
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 74
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 75
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 76
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 77
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 78
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 79
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 80
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 81
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 82
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 83
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 84
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 85
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 86
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 87
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 88
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 89
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 90
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 91
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 92
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 93
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 94
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 95
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 96
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 97
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 98
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 99
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 100
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 101
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 102
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 103
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 104
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 105
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 106
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 107
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 108
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 109
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 110
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 111
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 112
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 113
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 114
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 115
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 116
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 117
+
+
+~~~~~~~~~~~~~~~~~~~~~~ Running Process #1: ~~~~~~~~~~~~~~~~~~~~~~
+Real Data. Source: data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5. Mask style = [[ 0.  0.] [ 1.  0.] [ 0.  1.]]
+ 
+data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5
+Getting instrument information. Reading parameters from: data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5
+Building grid, size = 50 x 50
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 1
+
+G1 matrix computation 
+
+G2 matrix computation
+Truncated SVD inversion
+Number of singular values truncated = 3
+G reciprocal condition number = 2.36208165937e+16
+
+IokInput [555, 764, 782, 802, 878, 916]
+tdv check: [ 0.00439954  0.00305613  0.00487163  0.00584463  0.00376982  0.00543507]
+constant field solution
+E0 = [-0.05742545  0.00202981  0.00940586]
+dE0 = [ 0.02887836  0.01377197  0.00486889]
+
+1D field solution
+
+2D field solution
+Nit: 32; alph0: 5.00257134522e-07; alphToUse: 5.00257134522e-07; condiNumber0: 6.39837776715; condiNumberToUse: 6.39837776715
+------------------------------------------------
+Errors on E fit for time record 1
+
+
+X: Max: 0.0519979612487, Min: 0.03943912665, Mean: 0.0432687197325
+Y: Max: 0.04784629785, Min: 0.0290279471401, Mean: 0.0343003628029
+------------------------------------------------
+
+
+Chi Square = [ 3.62921075]. P value = [ 0.60393283].
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 2
+
+G1 matrix computation 
+
+G2 matrix computation
+Truncated SVD inversion
+Number of singular values truncated = 3
+G reciprocal condition number = 2.36208165937e+16
+
+IokInput [555, 764, 782, 802, 878, 916]
+tdv check: [ 0.00673976  0.00418709  0.0051023   0.0041025   0.00346519  0.0067887 ]
+constant field solution
+E0 = [ 0.02452558 -0.01508481 -0.00539341]
+dE0 = [ 0.03262844  0.01572437  0.00552372]
+
+1D field solution
+
+2D field solution
+Nit: 30; alph0: 8.32784923482e-07; alphToUse: 8.32784923482e-07; condiNumber0: 4.46499801601; condiNumberToUse: 4.46499801601
+------------------------------------------------
+Errors on E fit for time record 2
+
+
+X: Max: 0.0505590885164, Min: 0.0412847479091, Mean: 0.0438205678224
+Y: Max: 0.042186390525, Min: 0.0287346476194, Mean: 0.0318125546351
+------------------------------------------------
+
+
+Chi Square = [-0.56654032]. P value = [ 1.]. 
+
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 3
+
+G1 matrix computation 
+
+G2 matrix computation
+Truncated SVD inversion
+Number of singular values truncated = 3
+G reciprocal condition number = 2.36208165937e+16
+
+IokInput [555, 764, 782, 802, 878, 916]
+tdv check: [ 0.00330171  0.00459887  0.00658138  0.0031399   0.00398404  0.00446879]
+constant field solution
+E0 = [ 0.01040823  0.01793995 -0.001749  ]
+dE0 = [ 0.02629038  0.01008935  0.00455788]
+
+1D field solution
+
+2D field solution
+Nit: 31; alph0: 3.14595769844e-07; alphToUse: 3.14595769844e-07; condiNumber0: 6.40129355358; condiNumberToUse: 6.40129355358
+------------------------------------------------
+Errors on E fit for time record 3
+
+
+X: Max: 0.0554471218622, Min: 0.0388217627522, Mean: 0.0443550862521
+Y: Max: 0.0529725694953, Min: 0.0263279594031, Mean: 0.0356918004753
+------------------------------------------------
+
+
+Chi Square = [-0.13228683]. P value = [ 1.]. 
+
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 4
+
+G1 matrix computation 
+
+G2 matrix computation
+Truncated SVD inversion
+Number of singular values truncated = 3
+G reciprocal condition number = 2.36208165937e+16
+
+IokInput [555, 764, 782, 802, 878, 916]
+tdv check: [ 0.00415945  0.00376964  0.00491271  0.00481431  0.00415161  0.00373376]
+constant field solution
+E0 = [-0.01707845 -0.0027453  -0.00102542]
+dE0 = [ 0.02862981  0.01234583  0.00455123]
+
+1D field solution
+
+2D field solution
+alph failed to converge because measurement error is too large
+------------------------------------------------
+Errors on E fit for time record 4
+
+
+X: Max: 0.0286298116215, Min: 0.0286298116215, Mean: 0.0286298116215
+Y: Max: 0.0123458309953, Min: 0.0123458309953, Mean: 0.0123458309953
+------------------------------------------------
+
+
+Importing real data from data sources (radar and optical)/pfisr radar data/20151012.001_lp_3min-cal/20151012.001_lp_3min-cal.h5, timeSlice # 5
