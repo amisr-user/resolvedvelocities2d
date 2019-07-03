@@ -1,5 +1,26 @@
 Notes by A. S. Reimer
+Updated on 2019-7-3 by L. J. Lamarche
 
 How to run code on a fitted file:
 
-1) 
+1) Create a config file similar to example.ini 
+
+2) Run derived_from_fitted.py with command line arguments of the config file and the path to the fitted file relative to dataPath in the config file.
+
+
+Specific example for ISINGLASS experiment:
+
+1) Modify isinglass_test.ini so that dataPath is the path to the isinglass.v03 directory. With AMISR_PROCESSED mounted to Volumes, this is:
+
+dataPath=/Volumes/AMISR_Processed/processed_data/varneytest/isinglass.v03/
+
+2. If it doesn't exist, create the directory run_results in resolvedvelocities2d:
+
+mkdir run_results
+
+3. Run derive_from_fitted.py:
+
+python derive_from_fitted.py isinglass_test.ini 20170215.005/20170215.005_lp_1min-fitcal.h5
+
+This will take a while to run and should create a bunch of subdirectories with *.mat files in run_results.
+
