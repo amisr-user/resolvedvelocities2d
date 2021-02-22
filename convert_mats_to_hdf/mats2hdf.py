@@ -12,11 +12,7 @@ import tables
 
 import io_utils
 
-#datadir='/home/rvarney/AMISR/VEF/RHV_WorldDay40/run results/'
-#datadir='/Volumes/ISR_DATA_02/processed_data/varneytest/VEF_20170215.005/run results/'
-datadir='/home/asreimer/projects/AMISR/git/resolved2d/run_results/'
-#runname='20170129.001_lp_1min-fitcal_2dVEF_001001'
-#runname='20170215.005_lp_1min-fitcal_2dVEF_001001'
+datadir='/home/asreimer/projects/AMISR/git/resolvedvelocities2d/run_results/'
 runname='20170302.002_lp_1min-cal_2dVEF_001001'
 
 datapath=os.path.join(datadir,runname)
